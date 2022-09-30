@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home" android:title="Home" android:icon="@drawable/home_24"/>
+        <item android:id="@+id/print" android:title="Office" android:icon="@drawable/print_24"/>
+        <item android:id="@+id/food" android:title="Food" android:icon="@drawable/fastfood_24"/>
+        <item android:id="@+id/sellers" android:title="Locate Me" android:icon="@drawable/location_on_24"/>
+        <item android:id="@+id/computers" android:title="Computers" android:icon="@drawable/laptop_24"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Features">
+            <menu>
+                <item android:title="Share" android:id="@+id/share" android:icon="@drawable/share_24"/>
+                <item android:title="Sign Up" android:id="@+id/donate" android:icon="@drawable/giftcard_24"/>
+                <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/settings_24"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Accounts">
+            <menu>
+                <item android:title="Sign Up" android:id="@+id/sign_up" android:icon="@drawable/login_24"/>
+                <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/logout_24"/>
+            </menu>
+        </item>
+    </group>
+</menu>
